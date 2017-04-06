@@ -1,0 +1,10 @@
+apt-get update do
+action :service
+end
+
+package_name = 'apache2'
+
+package package_name do
+action :create
+end
+
